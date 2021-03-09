@@ -1,0 +1,33 @@
+body{
+    font-family: helvetica;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.card {
+  float: left;
+  margin: 20px;
+  background-color: #4d4d4d;
+  border-radius: 3px;
+  max-width:720px;
+}
+.container {
+  padding: 2px 16px;
+}
+.container p,
+h4 {
+  font-size: 22px;
+  color: white;
+  text-shadow: 1px 1px 2px #000000;
+  text-align: center;
+}
+
+.card img {
+  width: 400px;
+  height: 300px;
+  border-radius: 5px 5px 0 0;
+}
+.card:hover  {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
